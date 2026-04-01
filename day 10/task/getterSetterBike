@@ -1,0 +1,57 @@
+class Bike {
+ String brand;
+     String model;
+    String color;
+     int price;
+
+   
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+  
+    public String getBrand() {
+        return brand;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+}
+
+public class getterSetterBike {
+    public static void main(String[] args) {
+
+        Bike b = new Bike();
+
+        b.setBrand("Yamaha");
+        b.setModel("R15");
+        b.setColor("Blue");
+        b.setPrice(180000);
+
+        System.out.println("Brand: " + b.getBrand());
+        System.out.println("Model: " + b.getModel());
+        System.out.println("Color: " + b.getColor());
+        System.out.println("Price: " + b.getPrice());
+    }
+}
