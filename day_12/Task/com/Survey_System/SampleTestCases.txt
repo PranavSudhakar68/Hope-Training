@@ -1,0 +1,39 @@
+SAMPLE TEST CASES - SURVEY SYSTEM
+TC1 - Create Survey
+Input:
+1
+Student Feedback
+2
+1
+What do you like about the course?
+2
+Rate the teaching quality
+Expected Result:
+Survey created successfully.
+
+TC2 - Submit First User Response
+Input:
+2
+Anu
+Good explanation
+5
+Expected Result:
+Response stored successfully.
+TC3 - Submit Second User Response
+Input:
+2
+Rahul
+Need more examples
+4
+Expected Result:
+Multiple responses stored successfully.
+TC4 - View All Responses
+Input:
+4
+Expected Result:
+All respondents and their answers are displayed.
+TC5 - Invalid Rating Validation
+Input:
+7
+Expected Result:
+Program displays validation error message and asks again.
