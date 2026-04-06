@@ -1,9 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 
-// Abstract class
 abstract class Exercise {
-    private int duration; // minutes
+    private int duration;
 
     public Exercise(int duration) {
         if (duration <= 0) {
@@ -23,7 +22,6 @@ abstract class Exercise {
     public abstract String getName();
 }
 
-// Running class
 class Running extends Exercise {
 
     public Running(int duration) {
@@ -41,7 +39,6 @@ class Running extends Exercise {
     }
 }
 
-// Cycling class
 class Cycling extends Exercise {
 
     public Cycling(int duration) {
@@ -59,7 +56,6 @@ class Cycling extends Exercise {
     }
 }
 
-// Swimming class (extra feature)
 class Swimming extends Exercise {
 
     public Swimming(int duration) {
@@ -77,7 +73,6 @@ class Swimming extends Exercise {
     }
 }
 
-// Workout class (stores multiple exercises)
 class Workout {
     private List<Exercise> exercises;
 
@@ -105,7 +100,6 @@ class Workout {
     }
 }
 
-// User class
 class User {
     private String name;
     private Workout workout;
@@ -124,13 +118,11 @@ class User {
     }
 }
 
-// Main class
 public class FitnessTracker {
     public static void main(String[] args) {
 
         User user = new User("Rahul");
 
-        // Adding exercises
         user.getWorkout().addExercise(new Running(30));
         user.getWorkout().addExercise(new Cycling(20));
         user.getWorkout().addExercise(new Swimming(25));
