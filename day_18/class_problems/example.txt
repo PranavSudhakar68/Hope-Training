@@ -1,0 +1,4 @@
+Hello, this is a sample text.
+This file is created using BufferedWriter.Hello, this is a test file.
+This file is created using BufferedWriter.Hello, this is a test file.
+This file is created using BufferedWriter.

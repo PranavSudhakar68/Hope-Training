@@ -1,0 +1,11 @@
+Multithreading
+    ->a feature that allows the concurrent execution of two or more parts of a program, known as threads, to maximize CPU utilization
+
+Thread - It is a small piece of Work
+Implementation
+    ->Two types
+        - extends Thread class(Based on Class)
+        - implements Runnable interface(Based on interface)
+
+Concurrency
+    ->the ability of a program to execute multiple tasks or parts of a program simultaneously

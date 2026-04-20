@@ -1,0 +1,26 @@
+File Handling
+    ->Handling a file from secondary Storage(ROM)
+    ->If you  process something from RAM, we are forced to delete that file from your AM to gain the system speed
+
+The two main abstract classes for byte streams are:
+
+InputStream: for reading data (input)
+OutputStream: for writing data (output)
+
+
+FileInputStream: reads raw bytes from a file.
+FileOutputStream: writes raw bytes to a file.
+BufferedInputStream / BufferedOutputStream: use buffering for faster performance.
+ByteArrayInputStream: reads data from a byte array as if it were an input stream.
+ByteArrayOutputStream: writes data into a byte array, which grows automatically.
+
+Types of File path:
+    ->Relative file path - Describes the location of a file relative to the current working directory 
+    ->Absolute File path - Represents the complete, unique path from the root directory
+
+File Reader
+    ->Independently we can write into the file.
+    ->But bufferReader is dependent on FileReader. It is more efficient since it is accessing line by line(not charcter by character)
+
+FileWriter
+    ->same as FileReader (buferedWriter depeds on FileWriter)
